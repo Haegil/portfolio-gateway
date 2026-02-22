@@ -1,0 +1,30 @@
+.cardWrapper {
+    display: grid;
+    grid-template:
+    "projectName" auto
+    "cardImage" auto
+    "projectDescription" auto
+    "usedSkills" auto
+    "usedSkillsDescription" auto
+    / 1fr;
+}
+
+.cardImage {
+    grid-area: cardImage;
+}
+
+.projectName {
+    grid-area: projectName;
+}
+
+.projectDescription {
+    grid-area: projectDescription;
+}
+
+.usedSkills {
+    grid-area: usedSkills;
+}
+
+.usedSkillsDescription {
+    grid-area: usedSkillsDescription;
+}

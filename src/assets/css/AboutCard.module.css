@@ -1,0 +1,20 @@
+.container {
+    display: grid;
+    grid-template:
+    "img ..... title" 32px
+    "img ..... content" 32px /
+    64px 1rem auto;
+    padding: 1rem;
+}
+
+.img {
+    grid-area: img;
+}
+
+.title {
+    grid-area: title;
+}
+
+.content {
+    grid-area: content;
+}

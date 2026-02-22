@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+    grid-template:
+    "img title content" auto /
+    64px 8rem 1fr;
+}
+
+.img {
+    grid-area: img;
+}
+
+.title {
+    grid-area: title;
+}
+
+.content {
+    grid-area: content;
+}
+
+.line {
+    grid-area: line;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: grid;
+        grid-template:
+        "img title" 64px
+        "line line" 0.25rem
+        "content content" auto /
+        64px 1fr
+    }
+}

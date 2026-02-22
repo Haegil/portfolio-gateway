@@ -1,0 +1,1 @@
+export const skillIcons = import.meta.glob("../assets/images/skills/*.svg", {eager: true});
