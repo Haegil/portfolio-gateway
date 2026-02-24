@@ -41,7 +41,7 @@
 
 이 프로젝트는 [Vercel](https://vercel.com)을 통해 배포될 예정입니다. Vercel의 강력한 CI/CD 기능과 빠른 글로벌 CDN을 활용하여 사용자에게 안정적이고 빠른 서비스를 제공할 것입니다.
 
-**배포된 서비스 URL**: https://portfolio-gateway-haegils-projects.vercel.app/
+**배포된 서비스 URL**: https://www.haegil-portfolio.com
 
 ---
 
