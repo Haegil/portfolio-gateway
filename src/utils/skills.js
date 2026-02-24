@@ -1,31 +1,45 @@
 import language from "../assets/images/icons/language.svg";
 import frontend from "../assets/images/icons/frontend.svg";
 import backend from "../assets/images/icons/backend.svg";
+import devops from "../assets/images/icons/devops.svg";
 
 export const skills = [
   {
     id: 1,
     title: "Language",
-    content: [
-      "Javascript", "Java", "Python"
-    ],
+    content: ["Javascript", "Java"],
     img: language,
     alt: "language",
-  }, {
+  },
+  {
     id: 2,
     title: "Frontend",
     content: [
-      "React", "Vue", "Redux-toolkit", "TailwindCSS", "Vite", "Motion", "Pinia", "React-router", "React-hook-form"
+      "React",
+      "Vue",
+      "Redux-toolkit",
+      "TailwindCSS",
+      "Vite",
+      "Motion",
+      "Pinia",
+      "React-router",
+      "React-hook-form",
     ],
     img: frontend,
-    alt: "frontend"
-  }, {
+    alt: "frontend",
+  },
+  {
     id: 3,
     title: "Backend",
-    content: [
-      "Spring", "Express.js", "Firebase", "Gradle"
-    ],
+    content: ["Spring", "Express.js", "Firebase", "Gradle"],
     img: backend,
-    alt: "backend"
-  }
+    alt: "backend",
+  },
+  {
+    id: 4,
+    title: "DevOps",
+    content: ["Vercel"],
+    img: devops,
+    alt: "devops",
+  },
 ];

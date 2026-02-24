@@ -7,6 +7,7 @@
 
 .img {
     grid-area: img;
+    height: 64px;
 }
 
 .title {
