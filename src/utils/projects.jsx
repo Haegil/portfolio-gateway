@@ -2,8 +2,7 @@ export const projects = [
   {
     id: 1,
     name: "진국 아카이브",
-    imgUrl:
-      "https://portfolio-dev-storage-syd.s3.ap-southeast-2.amazonaws.com/images/eb01397f-a525-4994-9cca-173fc2c02b94-1518604914937.jpg",
+    imgUrl: "#",
     alt: "진국 아카이브 사진",
     skills: ["Java", "Spring", "JavaScript", "React"],
     description: [
@@ -11,7 +10,7 @@ export const projects = [
       "예전부터 여러 이유로 삭제된 이미지를 저장해둘 공간이 필요해서 만들어졌습니다.",
       "현재 개발중입니다 ...",
     ],
-    url: "한철룡",
+    url: "#",
     createAt: "2026-02-06 ~ ",
   },
   {
