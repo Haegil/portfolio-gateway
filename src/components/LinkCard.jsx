@@ -3,8 +3,8 @@ import link from "../assets/images/icons/link.svg";
 export default function LinkCard({img}) {
   return (
     <article className={
-      "flex flex-col justify-center items-center border-2 border-gray-700 rounded-2xl w-4/5 p-4 md:w-lg bg-gray-50" +
-      " hover:scale-105 duration-100 ease-out"
+      "flex flex-col justify-center items-center border border-slate-300 rounded-sm w-4/5 p-4 md:w-lg bg-white" +
+      " hover:-translate-y-1 duration-150 ease-out shadow-sm hover:shadow-xl"
     }>
       <div className={"flex justify-center items-center"}>
         <img src={img} alt={"links"} width={128}/>

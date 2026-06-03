@@ -7,7 +7,7 @@ export default function TopBtn() {
 
   return (
     <nav
-      className={"fixed right-4 bottom-4 border-2 border-gray-700 rounded-lg hover:scale-110 duration-75 ease-in bg-gray-50"}
+      className={"fixed right-4 bottom-4 border border-slate-500 rounded-sm hover:-translate-y-0.5 duration-75 ease-in bg-white shadow-sm"}
       onClick={scrollToTop}>
       <img src={topBtn} alt="topBtn" width={32}/>
     </nav>

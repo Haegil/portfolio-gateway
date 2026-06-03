@@ -43,15 +43,15 @@ export default function Header() {
 
   return (
     <header
-      className={`flex flex-col p-4 border-b-sky-600 border-b-2 
+      className={`flex flex-col p-4 border-b border-b-slate-300/60 
        fixed top-0 z-50 w-full
-       ${isScrolled || isOpen ? "bg-sky-400" : "bg-sky-400/65"} 
-       duration-400 ease-in-out overflow-hidden transition-all`}
+       ${isScrolled || isOpen ? "bg-white text-slate-950 shadow-sm" : "bg-white/75 text-slate-950 backdrop-blur-md"} 
+       duration-300 ease-in-out overflow-hidden transition-all`}
       style={{height: isOpen ? 64 + menuHeight : 64}}>
       <div className={
         `w-full flex items-center justify-between`
       }>
-        <h1 className={"font-extrabold text-2xl text-black hover:cursor-pointer hover:text-gray-100"}
+        <h1 className={"font-extrabold text-2xl hover:cursor-pointer hover:text-sky-700"}
             onClick={scrollToTop}
         >HAEGIL's Portfolio</h1>
         <nav className={"hover:cursor-pointer block md:hidden"}
@@ -59,17 +59,17 @@ export default function Header() {
           <img src={menu} alt="hamburger" width={32}/>
         </nav>
         <nav className={"hover:cursor-pointer hidden md:block"}>
-          <ul className={"flex items-center justify-evenly gap-2"}>
-            <li className={"hover:text-gray-100"}>
+          <ul className={"flex items-center justify-evenly gap-4 font-bold text-sm tracking-wide"}>
+            <li className={"hover:text-sky-700"}>
               <a href={"#about-me-section"}>ABOUT ME</a>
             </li>
-            <li>
+            <li className={"hover:text-sky-700"}>
               <a href={"#skills-section"}>SKILLS</a>
             </li>
-            <li className={"hover:text-gray-100"}>
+            <li className={"hover:text-sky-700"}>
               <a href={"#projects-section"}>PROJECTS</a>
             </li>
-            <li className={"hover:text-gray-100"}>
+            <li className={"hover:text-sky-700"}>
               <a href={"#links-section"}>LINKS</a>
             </li>
           </ul>

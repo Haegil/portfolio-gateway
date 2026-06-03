@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Gradle">
+  <rect width="48" height="48" fill="#f8fafc"/>
+  <path fill="#0f766e" d="M8 25c2-8 10-14 19-13 7 1 12 6 13 12-4-3-8-4-12-1-4 2-7 2-11 0-4-2-7-1-9 2z"/>
+  <path fill="#14b8a6" d="M10 27h28v9H10z"/>
+  <circle cx="18" cy="31" r="2" fill="#f8fafc"/>
+  <circle cx="30" cy="31" r="2" fill="#f8fafc"/>
+</svg>

@@ -25,27 +25,27 @@ export default function Main() {
         <Introduce></Introduce>
       </section>
       <section id={"about-me-section"}
-               className={"flex flex-col justify-center items-center pb-16 bg-amber-200"}>
+               className={"flex flex-col justify-center items-center pb-16 bg-stone-50"}>
         <SectionName>ABOUT ME</SectionName>
         <AboutMe></AboutMe>
       </section>
       <section id={"skills-section"}
-               className={"flex flex-col justify-center items-center bg-rose-400 pb-16"}>
+               className={"flex flex-col justify-center items-center bg-slate-100 pb-16"}>
         <SectionName>SKILLS</SectionName>
         {skills.map((s) => (
           <SkillsCard key={s.id} skills={s}></SkillsCard>
         ))}
       </section>
       <section id={"projects-section"}
-               className={"flex flex-col justify-center items-center bg-blue-300 pb-16"}>
-        <SectionName>PROJECTS</SectionName>
+               className={"flex flex-col justify-center items-center bg-zinc-900 pb-16"}>
+        <SectionName inverted>PROJECTS</SectionName>
         <div className={"flex flex-col gap-4 p-4 justify-center items-center md:flex-row md:flex-wrap"}>
           {projects.map((p) => (<Card key={p.id} project={p} updateCardId={updateCardId}></Card>))}
           {cardId !== 0 && (<Modal cardId={cardId} updateCardId={updateCardId}></Modal>)}
         </div>
       </section>
-      <section id={"links-section"} className={"flex flex-col justify-center items-center bg-gray-600 pb-16"}>
-        <SectionName>LINKS</SectionName>
+      <section id={"links-section"} className={"flex flex-col justify-center items-center bg-neutral-950 pb-16"}>
+        <SectionName inverted>LINKS</SectionName>
         <LinkCard img={github}></LinkCard>
       </section>
     </main>

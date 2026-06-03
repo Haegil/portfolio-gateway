@@ -2,7 +2,7 @@ import styles from "../assets/css/AboutCard.module.css";
 
 export default function AboutCard({aboutMe}) {
   return (
-    <div className={styles.container}>
+    <div className={styles.container + " border border-slate-300 bg-white shadow-sm"}>
       <img className={styles.img} src={aboutMe.img} alt={aboutMe.alt}/>
       <h2 className={styles.title + " font-nsr font-bold text-xl"}>
         {aboutMe.title}

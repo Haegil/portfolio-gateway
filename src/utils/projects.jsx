@@ -11,7 +11,9 @@
     description: [
       "",
     ],
-    url: "",
+    githubUrl: "",
+    demoUrl: "",
+    status: "",
     createAt: "",
   },
  */
@@ -28,7 +30,9 @@ export const projects = [
       "서브모니터를 가로 또는 세로로 돌려서 쓸 때가 자주 있다보니 만들게 된 앱",
       "jna를 통해 java로 windows의 구조체를 정의 및 사용",
     ],
-    url: "https://github.com/Haegil/display-toggle.git",
+    githubUrl: "https://github.com/Haegil/display-toggle.git",
+    demoUrl: "",
+    status: "github-only",
     createAt: "2026-02-20",
   },
   {
@@ -37,12 +41,14 @@ export const projects = [
     imgUrl:
       "#",
     alt: "my-blog",
-    skills: ["React", "Vite", "React-Router", "Redux", "Tailwindcss", "Express", "Vercel", "Github-actions", "Vercel", "Render", "Supabase"],
+    skills: ["React", "Vite", "React-Router", "Redux", "Tailwindcss", "Express", "Github-actions", "Vercel", "Render", "Supabase"],
     description: [
       "공부한 기록을 남기기 위해 만들어진 개인 블로그",
       "마크다운 에디터를 구현했으며 작성 도중 미리보기를 통해 어떻게 적용되었는지 알 수 있습니다."
     ],
-    url: "https://my-blog-liart-sigma-49.vercel.app",
+    githubUrl: "https://github.com/Haegil/my-blog",
+    demoUrl: "https://my-blog-liart-sigma-49.vercel.app",
+    status: "live",
     createAt: "2026-05-26",
   },
   {
@@ -56,7 +62,9 @@ export const projects = [
       "2차 전지 공정 과정을 통제 할 수 있는 MES 시스템",
       "홈/대시보드 페이지의 상단에 있는 \"시뮬레이터 시작\"을 클릭하여 더미데이터를 이용한 데모를 경험해볼 수 있습니다.",
     ],
-    url: "https://battery-mes.web.app/",
+    githubUrl: "https://github.com/Haegil/secondary_cell_mes_example",
+    demoUrl: "https://battery-mes.web.app/",
+    status: "live",
     createAt: "2026-05-29",
   },
 ];

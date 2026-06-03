@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Pinia">
+  <rect width="48" height="48" fill="#f8fafc"/>
+  <path fill="#facc15" d="M12 10h10v28H12z"/>
+  <path fill="#22c55e" d="M26 10h10v28H26z"/>
+  <path fill="#0f172a" d="M18 16h12v4H18zM18 28h12v4H18z"/>
+</svg>

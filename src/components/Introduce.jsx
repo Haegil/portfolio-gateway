@@ -10,7 +10,7 @@ export default function Introduce() {
         <br/>
         포트폴리오
       </h1>
-      <hr className={"border-sky-600 border-2 rounded-lg m-4"}/>
+      <hr className={"border-sky-600 border-2 rounded-sm m-4"}/>
       <h1 className={"font-nsr font-extrabold text-lg text-center"}>
         안녕하세요.
         <br/>
